@@ -1,0 +1,16 @@
+export { Conditional } from './conditional';
+export { Future } from './future';
+export { FutureAnterior } from './futureAnterior';
+export { Imperative } from './imperative';
+export { Imperfect } from './imperfect';
+export { ImperfectSubjunctive } from './imperfectSubjunctive';
+export { Past } from './past';
+export { PastAnterior } from './pastAnterior';
+export { PastConditional } from './pastConditional';
+export { PastSubjunctive } from './pastSubjunctive';
+export { Pluperfect } from './pluperfect';
+export { PluperfectSubjunctive } from './pluperfectSubjunctive';
+export { Present } from './present';
+export { SimplePast } from './simplePast';
+export { Subjunctive } from './subjunctive';
+export { Persons, Tense, TenseList } from './tense';
