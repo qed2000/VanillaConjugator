@@ -1,4 +1,4 @@
-import { HelperVerb } from './helperVerb';
+import { HelperVerb } from './helperVerb.js';
 
 export class PastConditional extends HelperVerb {
     constructor(options) {

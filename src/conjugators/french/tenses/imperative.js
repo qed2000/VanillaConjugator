@@ -1,6 +1,6 @@
-import { Persons, Tense } from './tense';
+import { Persons, Tense } from './tense.js';
 
-import { ucfirst } from '../utils';
+import { ucfirst } from '../utils.js';
 
 export class Imperative extends Tense {
     constructor(options) {

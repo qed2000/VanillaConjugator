@@ -1,6 +1,6 @@
-import * as Tenses from './tenses';
-import * as ConjugationGroups from './conjugationGroups';
-import { VerbList } from './verblist';
+import * as Tenses from './tenses/index.js';
+import * as ConjugationGroups from './conjugationGroups/index.js';
+import { VerbList } from './verblist.js';
 
 export class Conjugator {
     avoirIndex;

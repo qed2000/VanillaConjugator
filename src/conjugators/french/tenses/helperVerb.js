@@ -1,8 +1,8 @@
-import { Avoir } from '../conjugationGroups/avoir';
-import { Etre } from '../conjugationGroups/etre';
-import { VerbList } from '../verblist';
+import { Avoir } from '../conjugationGroups/avoir.js';
+import { Etre } from '../conjugationGroups/etre.js';
+import { VerbList } from '../verblist.js';
 
-import { Persons, Tense } from './tense';
+import { Persons, Tense } from './tense.js';
 
 let avoirIndex, etreIndex;
 

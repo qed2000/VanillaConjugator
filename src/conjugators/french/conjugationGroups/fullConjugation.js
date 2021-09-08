@@ -1,5 +1,5 @@
-import * as Tenses from '../tenses';
-import { VerbList } from '../verblist';
+import * as Tenses from '../tenses/index.js';
+import { VerbList } from '../verblist.js';
 
 export class FullConjugation  {
     pastTenseHelper = 'avoir';

@@ -1,6 +1,6 @@
-import * as Tenses from '../tenses';
+import * as Tenses from '../tenses/index.js';
 
-import { FullConjugation } from './fullConjugation';
+import { FullConjugation } from './fullConjugation.js';
 
 export class Aillir extends FullConjugation {
     static rule = {

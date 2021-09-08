@@ -1,4 +1,4 @@
-import { HelperVerb } from './helperVerb';
+import { HelperVerb } from './helperVerb.js';
 
 export class PastSubjunctive extends HelperVerb {
     constructor(options) {

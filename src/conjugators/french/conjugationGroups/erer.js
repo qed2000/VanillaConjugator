@@ -1,6 +1,6 @@
-import * as Tenses from '../tenses';
+import * as Tenses from '../tenses/index.js';
 
-import { FullConjugation } from './fullConjugation';
+import { FullConjugation } from './fullConjugation.js';
 
 export class Erer extends FullConjugation {
     static rule = {

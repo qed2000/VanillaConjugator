@@ -1,4 +1,4 @@
-import { Persons, Tense } from './tense';
+import { Persons, Tense } from './tense.js';
 
 export class Imperfect extends Tense {
     constructor(options) {
