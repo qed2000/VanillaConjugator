@@ -1,8 +1,8 @@
 import { DOMutils as Δ } from './utils.js';
-import { Conjugator as FrenchConjugator } from './conjugators/french/conjugator.js';
-// import { Conjugator as GermanConjugator } from './conjugators/german/conjugator.js';
-// import { Conjugator as SpanishConjugator } from './conjugators/spanish/conjugator.js';
-// import { Conjugator as JapaneseConjugator } from './conjugators/japanese/conjugator.js';
+import { Conjugator as FrenchConjugator } from './french/conjugator.js';
+// import { Conjugator as GermanConjugator } from './german/conjugator.js';
+// import { Conjugator as SpanishConjugator } from './spanish/conjugator.js';
+// import { Conjugator as JapaneseConjugator } from './japanese/conjugator.js';
 
 const Languages = {
     fr: { name: 'French', key: 'french', conjugator: FrenchConjugator }
